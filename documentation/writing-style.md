@@ -1,4 +1,4 @@
-# Style
+# Writing style
 
 Outlined below are style rules that should generally be followed when writing documentation.
 
@@ -23,7 +23,7 @@ If a project has a brand, and any of the rules below do not coincide with the br
 - Use digits for numbers 10 or higher (e.g., The 10 string manipulation libraries).
 - Use commas as the thousands separator (i.e., when writing five thousand, write 5,000, not 5000, 5 000, or 5.000).
 - Use periods for decimals (i.e., when writing an approximation for pi, write 3.14159, not 3,14159).
-- Always use digits when referring to versions (i.e., write `npm` version 7 or version 7 of `npm`, not `npm` version seven or the seventh version of `npm`).
+- Always use digits when referring to versions (i.e., write npm version 7 or version 7 of npm, not npm version seven or the seventh version of npm).
 
 ## Phrasing
 

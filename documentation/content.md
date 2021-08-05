@@ -1,6 +1,6 @@
 # Content
 
-Documentation contents should be tailored to the needs of each particular project. However, generally, most documentation of significant projects should, at a minimum, include the information outlined below in some way.
+Documentation contents should be tailored to the needs of each particular project. However, generally, most documentation should include the information outlined below in some way.
 
 ## Background
 
