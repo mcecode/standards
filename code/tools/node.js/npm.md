@@ -40,7 +40,7 @@ package-lock = false
 3. Update `CHANGELOG.md`.
 4. If necessary, run a build command.
 5. If necessary, test with [`npm link`](https://docs.npmjs.com/cli/v7/commands/npm-link).
-6. Run `npm puslish`.
+6. Run [`npm puslish`](https://docs.npmjs.com/cli/v7/commands/npm-publish).
 7. Commit release to Git.
 8. Add a release Git tag.
 9. Push release commit and tag to GitHub.
