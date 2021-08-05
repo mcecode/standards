@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "format": "prettier . -w",
+    "lint": "alex . && markdownlint-cli2-fix \"**/*.md\" \"#node_modules\" && prettier . -c"
+  },
+  "devDependencies": {
+    "alex": "^9.1.0",
+    "markdownlint-cli2": "^0.2.0",
+    "prettier": "2.3.2"
+  }
+}
