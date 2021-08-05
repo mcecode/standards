@@ -1,3 +1,3 @@
 # stylelint
 
-<!-- TODO: <https://github.com/stylelint/stylelint> -->
+TODO: <https://github.com/stylelint/stylelint>

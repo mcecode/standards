@@ -1,3 +1,3 @@
 # husky
 
-<!-- TODO: <https://github.com/typicode/husky> -->
+TODO: <https://github.com/typicode/husky>
