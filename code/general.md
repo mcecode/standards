@@ -17,6 +17,7 @@ The following are high-level heuristics that apply to all languages and are over
   - Interface segregation principle
   - Dependency inversion principle
 - Only do one task at a time.
+- Do not [overengineer](https://en.wikipedia.org/wiki/Overengineering).
 
 ## Naming
 
@@ -37,12 +38,13 @@ The following are high-level heuristics that apply to all languages and are over
 ### Line endings
 
 - Use line feed (LF) as the end of line character.
-- End each file with an LF.
+- End each file with one LF.
 
 ### Spaces and indentation
 
 - Use spaces instead of tabs.
 - Indent using two spaces.
+- Do not add trailing whitespace.
 
 ### Character line limit
 
