@@ -9,16 +9,16 @@
 ### `package.json`
 
 - Universal fields for all projects to include:
-  - `name`
-  - `version`
-  - `license`
-  - `author`
-  - `description`
-  - `keywords`
-  - `homepage`
-  - `bugs`
-  - `repository`
-- Other fields that a project may need can be found in the [`package.json` documentation](https://docs.npmjs.com/cli/v7/configuring-npm/package-json).
+  - [`name`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#name)
+  - [`version`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#version)
+  - [`type`](https://nodejs.org/api/packages.html#packages_package_json_and_file_extensions)
+  - [`license`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#license)
+  - [`author`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#people-fields-author-contributors)
+  - [`description`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#description-1)
+  - [`keywords`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#keywords)
+  - [`homepage`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#homepage)
+  - [`bugs`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#bugs)
+  - [`repository`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#repository)
 
 ### `.npmignore`
 
