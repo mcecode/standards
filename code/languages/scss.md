@@ -2,4 +2,4 @@
 
 ## Modules
 
-- Do not prepend "./" to relative file paths.
+- Do not prepend `./` to relative file paths.

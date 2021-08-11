@@ -1,7 +1,7 @@
 # markdownlint
 
-[`markdownlint`](https://github.com/DavidAnson/markdownlint) version when this document was last updated: 0.23.1 \
-[`markdownlint-cli2`](https://github.com/DavidAnson/markdownlint-cli2) version when this document was last updated: 0.2.0
+[markdownlint](https://github.com/DavidAnson/markdownlint) version when this document was last updated: 0.23.1 \
+[markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) version when this document was last updated: 0.2.0
 
 ## Installation
 
@@ -9,15 +9,15 @@
 npm i -D markdownlint-cli2
 ```
 
-**Note:** There is also a [`markdownlint-cli`](https://github.com/igorshubovych/markdownlint-cli). However, this document advocates the use of `markdownlint` using `markdownlint-cli2`, that is why that is the package to be installed.
+**Note:** There is also a [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli). However, this document advocates the use of markdownlint using markdownlint-cli2, that is why that is the package to be installed.
 
 ## Rules
 
-A complete list of `markdownlint` rules can be found [here](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
+A complete list of markdownlint rules can be found [here](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
 
 ## Configuration files
 
-**Note:** [`markdownlint-cli2` does not support ignore files](https://github.com/DavidAnson/markdownlint-cli2#compatibility).
+**Note:** [markdownlint-cli2 does not support ignore files](https://github.com/DavidAnson/markdownlint-cli2#compatibility).
 
 ### `.markdownlint.jsonc`
 
@@ -106,7 +106,7 @@ A complete list of `markdownlint` rules can be found [here](https://github.com/D
 
 ## Run
 
-### Using `npx`
+### Using npx
 
 Lint and fix files ending in `.md` while ignoring the `node_modules` directory:
 
@@ -114,7 +114,7 @@ Lint and fix files ending in `.md` while ignoring the `node_modules` directory:
 npx markdownlint-cli2-fix "**/*.md" "#node_modules"
 ```
 
-### Using `npm scripts`
+### Using npm scripts
 
 In `package.json`:
 

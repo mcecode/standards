@@ -30,7 +30,7 @@ npm i -DE prettier
 
 ## Running the CLI
 
-### Using `npx`
+### Using npx
 
 Lint files:
 
@@ -44,7 +44,7 @@ Format files:
 npx prettier . -w
 ```
 
-### Using `npm scripts`
+### Using npm scripts
 
 In `package.json`:
 

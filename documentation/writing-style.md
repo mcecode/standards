@@ -87,6 +87,7 @@ If a project has a brand, and any of the rules below do not coincide with the br
 
 ## Code
 
+- Only use code formatting (i.e., inline code blocks) when referring to code, files, directories, paths, globs, or command-line inputs and outputs.
 - Follow the coding standards of the project that the documentation is being made for. For example, if a project capitalizes the letters in hexadecimal color codes, then code samples should have `#C1C1C1` instead of `#c1c1c1` or `#c1C1c1`.
 
 ## Acknowledgments

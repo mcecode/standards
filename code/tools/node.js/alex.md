@@ -10,7 +10,7 @@ npm i -D alex
 
 ## Rules
 
-alex uses [`retext-equality`](https://github.com/retextjs/retext-equality) and [`retext-profanities`](https://github.com/retextjs/retext-profanities) rules, a full list of which can be found [here](https://github.com/retextjs/retext-equality/blob/main/rules.md) and [here](https://github.com/retextjs/retext-profanities/blob/main/rules.md), respectively.
+alex uses [retext-equality](https://github.com/retextjs/retext-equality) and [retext-profanities](https://github.com/retextjs/retext-profanities) rules, a full list of which can be found [here](https://github.com/retextjs/retext-equality/blob/main/rules.md) and [here](https://github.com/retextjs/retext-profanities/blob/main/rules.md), respectively.
 
 ## Configuration files
 
@@ -29,7 +29,7 @@ exports.profanitySureness = 1;
 
 ## Running the CLI
 
-### Using `npx`
+### Using npx
 
 Lint files:
 
@@ -37,7 +37,7 @@ Lint files:
 npx alex .
 ```
 
-### Using `npm scripts`
+### Using npm scripts
 
 In `package.json`:
 
