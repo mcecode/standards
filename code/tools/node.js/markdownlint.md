@@ -67,10 +67,6 @@ A complete list of markdownlint rules can be found [here](https://github.com/Dav
     // 1. Number one
     // 2. Number two
     // 3. Number three
-    // or
-    // 01. Number one
-    // 02. Number two
-    // 03. Number three
     "style": "ordered"
   },
 

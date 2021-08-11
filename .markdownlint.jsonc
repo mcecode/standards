@@ -43,10 +43,6 @@
     // 1. Number one
     // 2. Number two
     // 3. Number three
-    // or
-    // 01. Number one
-    // 02. Number two
-    // 03. Number three
     "style": "ordered"
   },
 
