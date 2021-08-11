@@ -54,12 +54,6 @@ Lint files:
 npx eslint . --cache --cache-location node_modules -f codeframe
 ```
 
-Debug configuration:
-
-```console
-npx eslint --print-config <path/to/file>
-```
-
 ### Using npm scripts
 
 In `package.json`:
