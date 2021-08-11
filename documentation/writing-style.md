@@ -46,9 +46,7 @@ If a project has a brand, and any of the rules below do not coincide with the br
 
 ## Symbols
 
-<!-- alex ignore special -->
-
-- When possible and practical, spell out words such as plus and approximately instead of using symbols like the plus sign (+) and tilde (~) because screen readers can misread text that uses these special characters (i.e., write, it is approximately 5.99, not, it is ~5.99).
+- When possible and practical, spell out words such as plus and approximately instead of using symbols like the plus sign (+) and tilde (~) because screen readers can misread text that uses these characters (i.e., write, it is approximately 5.99, not, it is ~5.99).
 - Use the word "and" instead of the ampersand symbol (&). For example, it should be, GET and POST requests, not, GET & POST requests. Except when it is part of a proper noun (e.g., AT&T) or quotation (e.g., the manual says, "The control structures & the boolean operators are...").
 - Do not use a forward slash (/) when "and" or "or" is meant except for typical use cases like and/or and TCP/IP.
 - Use straight apostrophes ('), not curly apostrophes (’), backticks (`), or accent marks.
@@ -62,13 +60,16 @@ If a project has a brand, and any of the rules below do not coincide with the br
 
 ## Abbreviations, acronyms, and initialisms
 
+<!-- alex disable just -->
+
 - During the first occurrence, write out the full version followed by its abbreviation inside parentheses (e.g., Unified Extensible Firmware Interface (UEFI)). Subsequent references will then refer only to the abbreviation. If the full version will only be used once within a document, then there is no need to state its abbreviation.
-<!-- alex ignore just -->
 - Do not use capitals in the full version just because they are used in abbreviations (i.e., write line feed (LF), not Line Feed (LF)).
 - There is no need to expand typical abbreviations such as URL or USB even on the first occurrence.
 - Use indefinite articles, a and an, based on the pronunciation (e.g., an HTTP request).
 - Pluralize by adding -s or -es, not by adding an apostrophe s (i.e., use CD-ROMs and BIOSes, not CD-ROM's and BIOS's).
 - Except for typical Latin abbreviations such as e.g. or etc., use full capitals and omit periods (i.e., write IETF, not I.E.T.F., i.e.t.f., or ietf).
+
+<!-- alex enable just -->
 
 ## Titles and headings
 

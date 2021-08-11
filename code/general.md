@@ -4,7 +4,7 @@ The following are high-level heuristics that apply to all languages and are over
 
 ## Design principles
 
-<!-- alex ignore simple wacko stupid -->
+<!-- alex disable simple wacko stupid -->
 
 - Follow the [keep it simple, stupid (KISS) principle](https://en.wikipedia.org/wiki/KISS_principle).
 - Follow the [don't repeat yourself (DRY) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
@@ -18,6 +18,8 @@ The following are high-level heuristics that apply to all languages and are over
   - Dependency inversion principle
 - Only do one task at a time.
 - Do not [overengineer](https://en.wikipedia.org/wiki/Overengineering).
+
+<!-- alex enable simple wacko stupid -->
 
 ## Naming
 
@@ -44,7 +46,7 @@ The following are high-level heuristics that apply to all languages and are over
 
 - Use spaces instead of tabs.
 - Indent using two spaces.
-- Do not add trailing whitespace.
+- Do not add trailing spaces.
 
 ### Character line limit
 
@@ -99,6 +101,7 @@ The following are high-level heuristics that apply to all languages and are over
 
 Inspiration for this document is taken from the following sources:
 
+<!-- alex disable simple -->
+
 - [Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-<!-- alex ignore simple -->
 - [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code by Dustin Boswell and Trevor Foucher](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293)
