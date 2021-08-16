@@ -25,9 +25,9 @@ The following are high-level heuristics that apply to all languages and are over
 
 - Use descriptive, meaningful, and precise names based on the context where they are declared and used.
 - Unless established naming conventions for specific languages and/or environments already exist, the following should be followed:
-  - Prefer using whole words instead of abbreviations (e.g., use `error`, not `err` or `e`).
+  - Prefer using whole words instead of abbreviations (e.g., `error`, not `err` or `e`).
   - Make boolean value names explicit by prefixing them with `is`, `has`, and other such modifiers.
-  - Prefer using positive names for boolean values (e.g., use `isString`, not `isNotString`).
+  - Prefer using positive names for boolean values (e.g., `isString`, not `isNotString`).
   - Function names should begin with a verb or should suggest action.
   - Class and object names should be nouns.
 

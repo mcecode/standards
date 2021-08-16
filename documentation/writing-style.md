@@ -21,9 +21,9 @@ If a project has a brand, and any of the rules below do not coincide with the br
 
 - Spell out numbers lower than 10 (e.g., There are three major JavaScript frameworks).
 - Use digits for numbers 10 or higher (e.g., The 10 string manipulation libraries).
-- Use commas as the thousands separator (i.e., when writing five thousand, write 5,000, not 5000, 5 000, or 5.000).
-- Use periods for decimals (i.e., when writing an approximation for pi, write 3.14159, not 3,14159).
-- Always use digits when referring to versions (i.e., write npm version 7 or version 7 of npm, not npm version seven or the seventh version of npm).
+- Use commas as the thousands separator (e.g., 5,000, not 5000, 5 000, or 5.000).
+- Use periods for decimals (e.g., 3.14159, not 3,14159).
+- Always use digits when referring to versions (e.g., npm version 7 or version 7 of npm, not npm version seven or the seventh version of npm).
 
 ## Phrasing
 
@@ -33,20 +33,20 @@ If a project has a brand, and any of the rules below do not coincide with the br
 
 ## Casing
 
-- Follow the stated or implied casing conventions of projects, applications, executables, brands, trademarks, etc., when referencing them (i.e., write webpack, not Webpack).
+- Follow the stated or implied casing conventions of projects, applications, executables, brands, trademarks, etc., when referencing them (e.g., webpack, not Webpack).
 - Always use sentence case except when it violates casing conventions previously mentioned.
 
 ## Punctuation
 
 - Use serial commas when it does not add ambiguity. When ambiguity is still apparent with or without the serial comma, rephrase the phrase or sentence.
-- Use proper punctuation in bulleted and numbered items (i.e., use a period to end it if it contains a sentence).
+- Use proper punctuation in bulleted and numbered items (e.g., use a period to end a bullet point if it contains a sentence).
 - Never put a space before a comma, semicolon, colon, period, question mark, or exclamation point, even in quoted material.
 - Add only one space after a comma, semicolon, colon, period, question mark, or exclamation point.
 - When using a colon followed by a phrase, begin the phrase with an uppercase letter (e.g., Creating a programming language: An example).
 
 ## Symbols
 
-- When possible and practical, spell out words such as plus and approximately instead of using symbols like the plus sign (+) and tilde (~) because screen readers can misread text that uses these characters (i.e., write, it is approximately 5.99, not, it is ~5.99).
+- When possible and practical, spell out words such as plus and approximately instead of using symbols like the plus sign (+) and tilde (~) because screen readers can misread text that uses these characters (e.g., it is approximately 5.99, not it is ~5.99).
 - Use the word "and" instead of the ampersand symbol (&). For example, it should be, GET and POST requests, not, GET & POST requests. Except when it is part of a proper noun (e.g., AT&T) or quotation (e.g., the manual says, "The control structures & the boolean operators are...").
 - Do not use a forward slash (/) when "and" or "or" is meant except for typical use cases like and/or and TCP/IP.
 - Use straight apostrophes ('), not curly apostrophes (’), backticks (`), or accent marks.
@@ -55,19 +55,19 @@ If a project has a brand, and any of the rules below do not coincide with the br
 
 ## Word shortening
 
-- Avoid contractions (i.e., use cannot, not can't).
-- Avoid shortened words (i.e., use configuration, not config) unless it is more appropriate to use for the context it is being used in.
+- Avoid contractions (e.g., cannot, not can't).
+- Avoid shortened words (e.g., configuration, not config) unless it is more appropriate to use for the context it is being used in.
 
 ## Abbreviations, acronyms, and initialisms
 
 <!-- alex disable just -->
 
 - During the first occurrence, write out the full version followed by its abbreviation inside parentheses (e.g., Unified Extensible Firmware Interface (UEFI)). Subsequent references will then refer only to the abbreviation. If the full version will only be used once within a document, then there is no need to state its abbreviation.
-- Do not use capitals in the full version just because they are used in abbreviations (i.e., write line feed (LF), not Line Feed (LF)).
+- Do not use capitals in the full version just because they are used in abbreviations (e.g., line feed (LF), not Line Feed (LF)).
 - There is no need to expand typical abbreviations such as URL or USB even on the first occurrence.
 - Use indefinite articles, a and an, based on the pronunciation (e.g., an HTTP request).
-- Pluralize by adding -s or -es, not by adding an apostrophe s (i.e., use CD-ROMs and BIOSes, not CD-ROM's and BIOS's).
-- Except for typical Latin abbreviations such as e.g. or etc., use full capitals and omit periods (i.e., write IETF, not I.E.T.F., i.e.t.f., or ietf).
+- Pluralize by adding -s or -es, not by adding an apostrophe s (e.g., CD-ROMs and BIOSes, not CD-ROM's and BIOS's).
+- Except for typical latin abbreviations such as e.g. or etc., use full capitals and omit periods (e.g., IETF, not I.E.T.F., i.e.t.f., or ietf).
 
 <!-- alex enable just -->
 
@@ -83,7 +83,7 @@ If a project has a brand, and any of the rules below do not coincide with the br
 
 ## URLs and links
 
-- Do not use trailing slashes (i.e., use <http://example.com>, not <http://example.com/>).
+- Do not use trailing slashes (e.g., <http://example.com>, not <http://example.com/>).
 - Only link to a reference on its first occurrence (i.e., do not link to the same URL multiple times).
 
 ## Code
