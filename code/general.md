@@ -25,13 +25,15 @@ The following are high-level heuristics that apply to all languages and are over
 
 - Use descriptive, meaningful, and precise names based on the context where they are declared and used.
 - Unless established naming conventions for specific languages and/or environments already exist, the following should be followed:
-  - Prefer using positive names for boolean values (i.e., use `isString`, not `isNotString`)
+  - Prefer using whole words instead of abbreviations (e.g., use `error`, not `err` or `e`).
+  - Make boolean value names explicit by prefixing them with `is`, `has`, and other such modifiers.
+  - Prefer using positive names for boolean values (e.g., use `isString`, not `isNotString`).
   - Function names should begin with a verb or should suggest action.
   - Class and object names should be nouns.
 
 ## Formatting
 
-- Be consistent in following whatever formatting rules are chosen
+- Be consistent in following whatever formatting rules are chosen.
 
 ### Strings
 
@@ -87,8 +89,7 @@ The following are high-level heuristics that apply to all languages and are over
 
 ## Error handling
 
-- Do not return null or boolean for errors.
-- Prefer throwing exceptions and errors over returning error codes.
+- Do not return values to indicate errors. Instead, prefer throwing exceptions and/or errors.
 - Separate application logic and error handling.
 
 ## Unit tests
@@ -103,5 +104,8 @@ Inspiration for this document is taken from the following sources:
 
 <!-- alex disable simple -->
 
-- [Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code by Dustin Boswell and Trevor Foucher](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293)
+- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293)
+- [sindresorhus/meta/discussions/12](https://github.com/sindresorhus/meta/discussions/12)
+
+<!-- alex enable simple -->
