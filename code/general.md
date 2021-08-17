@@ -106,6 +106,6 @@ Inspiration for this document is taken from the following sources:
 
 - [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 - [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293)
-- [sindresorhus/meta/discussions/12](https://github.com/sindresorhus/meta/discussions/12)
+- [sindresorhus/meta#12](https://github.com/sindresorhus/meta/discussions/12)
 
 <!-- alex enable simple -->
