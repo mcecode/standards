@@ -1,6 +1,6 @@
 # General
 
-The following are high-level heuristics that apply to all languages and are overridden by language or tool-specific rules that conflict with them. For example, if the PHP rules state that single (') quotes should be used for strings, then that rule overrides the double (") quotes for strings rule here.
+The following are high-level heuristics that apply to all languages and are overridden by language or tool-specific rules that conflict with them.
 
 ## Design principles
 
@@ -26,7 +26,7 @@ The following are high-level heuristics that apply to all languages and are over
 - Use descriptive, meaningful, and precise names based on the context where they are declared and used.
 - Unless established naming conventions for specific languages and/or environments already exist, the following should be followed:
   - Prefer using whole words instead of abbreviations (e.g., `error`, not `err` or `e`).
-  - Make boolean value names explicit by prefixing them with `is`, `has`, and other such modifiers.
+  - Prefer prefixing boolean variable names with `is`, `has`, and other such modifiers.
   - Prefer using positive names for boolean values (e.g., `isString`, not `isNotString`).
   - Function names should begin with a verb or should suggest action.
   - Class and object names should be nouns.
@@ -37,7 +37,7 @@ The following are high-level heuristics that apply to all languages and are over
 
 ### Strings
 
-- Use double quotes for strings.
+- Prefer using double (") quotes for strings if the language syntax allows them.
 
 ### Line endings
 
@@ -85,11 +85,11 @@ The following are high-level heuristics that apply to all languages and are over
 - Should be written in sentence case
 - Should only be written if informing, explaining, emphasizing, warning, and/or clarifying something that cannot be expressed in code
 - Do not use trailing slashes for links.
-- Except for annotation comments which may have their own syntax for emphasis, use single quotes to emphasize variable names and other code-relevant identifiers.
+- Except for annotation comments (e.g., JSDoc) which may have their own syntax for emphasis, prefer using single (') quotes to emphasize variable names and other code-relevant identifiers.
 
 ## Error handling
 
-- Do not return values to indicate errors. Instead, prefer throwing exceptions and/or errors.
+- Prefer throwing exceptions and/or errors instead of returning error codes or values.
 - Separate application logic and error handling.
 
 ## Unit tests
