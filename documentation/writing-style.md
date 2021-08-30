@@ -20,7 +20,9 @@ If a project has a brand, and any of the rules below do not coincide with the br
 ## Numbers
 
 - Spell out numbers lower than 10 (e.g., There are three major JavaScript frameworks).
+- Spell out ordinal numerals lower than 10th (e.g., The fifth JavaScript framework).
 - Use digits for numbers 10 or higher (e.g., The 10 string manipulation libraries).
+- Use digits and letter suffixes for ordinal numerals 10th or higher (e.g., The 12th boolean argument).
 - Use commas as the thousands separator (e.g., 5,000, not 5000, 5 000, or 5.000).
 - Use periods for decimals (e.g., 3.14159, not 3,14159).
 - Always use digits when referring to versions (e.g., npm version 7 or version 7 of npm, not npm version seven or the seventh version of npm).
@@ -98,4 +100,4 @@ Inspiration for this document is taken from the following sources:
 - [ArchWiki style conventions](https://wiki.archlinux.org/title/Help:Style)
 - [Wikipedia Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style)
 - [MDN Web Docs style guide](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Writing_style_guide)
-- [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
+- [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome)

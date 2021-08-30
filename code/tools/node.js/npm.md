@@ -1,6 +1,6 @@
 # npm
 
-[npm](https://docs.npmjs.com/) version when this document was last updated: 7.20.3
+[npm](https://docs.npmjs.com) version when this document was last updated: 7.21.1
 
 **Note:** This guide is for publishing npm packages, not for creating apps.
 
@@ -23,6 +23,7 @@
 ### `.npmignore`
 
 - For most use cases, it is better to use the [`files`](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#files) field in `package.json` than a `.npmignore`.
+- Uses the same syntax as a [`.gitignore`](../git.md#`.gitignore`).
 - More information about this file can be found [here](https://docs.npmjs.com/cli/v7/using-npm/developers#keeping-files-out-of-your-package).
 
 ### `.npmrc`

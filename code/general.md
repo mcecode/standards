@@ -1,6 +1,6 @@
 # General
 
-The following are high-level heuristics that apply to all languages and are overridden by language or tool-specific rules that conflict with them.
+The following are high-level heuristics that apply to all languages and are overridden by project, language, or tool-specific rules that conflict with them.
 
 ## Design principles
 
@@ -73,7 +73,7 @@ The following are high-level heuristics that apply to all languages and are over
 ## Conditionals
 
 - Do not use [yoda conditions](https://en.wikipedia.org/wiki/Yoda_conditions).
-- Prefer using [guard clauses](<https://en.wikipedia.org/wiki/Guard_(computer_science)>) instead of many if-else statments.
+- Prefer using [guard clauses](<https://en.wikipedia.org/wiki/Guard_(computer_science)>) instead of many if-else statements.
 
 ## Functions
 

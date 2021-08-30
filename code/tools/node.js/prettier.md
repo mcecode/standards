@@ -17,7 +17,7 @@ npm i -DE prettier
 ### `.prettierignore`
 
 - Include project-specific directories and files that need to be ignored by Prettier.
-- Uses the same syntax as a `.gitignore`.
+- Uses the same syntax as a [`.gitignore`](../git.md#`.gitignore`).
 - Prettier ignores the `node_modules` directory by default, so there is no need to add it here.
 
 ### `.prettierrc.json`

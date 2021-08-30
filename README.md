@@ -1,6 +1,6 @@
 # Standards
 
-This repository contains documents that describe the practices, tools, and licenses that I like to use when creating my personal coding projects. It's mainly to remind myself of what to set up and what guidelines I follow when creating a new one.
+This repository contains documents that describe the practices, tools, and licenses that I like to use when creating my personal coding projects. I use it mainly to remind myself of what to set up and what guidelines I follow when creating a new one.
 
 The [`code`](code) directory holds the files that articulate the coding style and tools that my projects should use.
 

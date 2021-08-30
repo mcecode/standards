@@ -14,7 +14,7 @@ The background of a project should more or less answer the following questions:
 
 It may also talk about the following:
 
-- The Features of the project
+- The features of the project
 - The project structure
 - The history of the project
 - Other information that may be useful in introducing the project
@@ -49,10 +49,10 @@ This section can be skipped if the project is not versioned.
 
 If versioning is used, then strictly follow the [Semantic Versioning 2.0 Specification](https://semver.org) and loosely follow the [Keep a Changelog](https://keepachangelog.com/en/1.0.0) guidelines.
 
-## Licenses, attributions, and 3rd party assets
+## Licenses, attributions, and third-party assets
 
 This section should include the following when appropriate:
 
 - Statement of the project license and copyright
 - Attributions to people, organizations, and/or contributors
-- Acknowledgments of 3rd party assets used such as APIs, libraries, fonts, icons, etc.
+- Acknowledgments of third-party assets used such as APIs, libraries, fonts, icons, etc.
