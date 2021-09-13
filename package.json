@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "alex": "^9.1.0",
-    "markdownlint-cli2": "^0.2.0",
-    "prettier": "2.3.2"
+    "markdownlint-cli2": "^0.3.0",
+    "prettier": "2.4.0"
   }
 }
