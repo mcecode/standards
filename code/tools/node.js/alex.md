@@ -17,7 +17,7 @@ alex uses [retext-equality](https://github.com/retextjs/retext-equality) and [re
 ### `.alexignore`
 
 - Include project-specific directories and files that need to be ignored by alex.
-- Uses the same syntax as a [`.gitignore`](../git.md#`.gitignore`).
+- Uses the same syntax as a [`.gitignore`](../git.md#gitignore).
 - alex ignores the `node_modules` directory by default, so there is no need to add it here.
 
 ### `.alexrc.js`

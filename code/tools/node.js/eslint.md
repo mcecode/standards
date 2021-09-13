@@ -20,7 +20,7 @@ A complete list of ESLint rules can be found [here](https://eslint.org/docs/rule
 ### `.eslintignore`
 
 - Include project-specific directories and files that need to be ignored by ESLint.
-- Uses the same syntax as a [`.gitignore`](../git.md#`.gitignore`).
+- Uses the same syntax as a [`.gitignore`](../git.md#gitignore).
 - ESLint ignores the `node_modules` directory by default, so there is no need to add it here.
 
 ### `.eslintrc.json`
