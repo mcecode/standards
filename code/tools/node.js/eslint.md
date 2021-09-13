@@ -28,19 +28,25 @@ A complete list of ESLint rules can be found [here](https://eslint.org/docs/rule
 ```jsonc
 {
   "env": {
-    "es2021": true
-
-    // ... other global environments, see:
+    // For a list of global environments, see:
     // https://eslint.org/docs/user-guide/configuring/language-options#specifying-environments
   },
   "parserOptions": {
+    // If using a transpiler, add:
     "ecmaVersion": "latest",
+    // Else, set 'ecmaVersion' based on target environments' supported
+    // ECMAScript version. See:
+    // https://kangax.github.io/compat-table/es6
+    // https://node.green
 
-    // If using ESModules, add:
+    // If using ECMAScript modules, add:
     "sourceType": "module"
   },
   "extends": "mcecode",
   "reportUnusedDisableDirectives": true
+
+  // If specific files need different settings, see:
+  // https://eslint.org/docs/user-guide/configuring/configuration-files#how-do-overrides-work
 }
 ```
 
