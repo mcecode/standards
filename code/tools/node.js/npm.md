@@ -1,6 +1,6 @@
 # npm
 
-[npm](https://docs.npmjs.com) version when this document was last updated: 7.21.1
+[npm](https://docs.npmjs.com) version when this document was last updated: 7.24.1
 
 **Note:** This guide is for publishing npm packages, not for creating apps.
 
@@ -33,6 +33,18 @@ package-lock = false
 ```
 
 **Note:** The rationale for including this setting can be found [here](https://github.com/eslint/eslint#why-doesnt-eslint-lock-dependency-versions) and [here](https://www.twilio.com/blog/lockfiles-nodejs).
+
+## Standard file names
+
+When applicable to the project, use the following file names:
+
+- `./index.js`, as the main entry point
+- `./cli.js`, as the main CLI executable
+
+## Node.js support
+
+- Prefer supporting only ECMAScript modules over CommonJS modules or both.
+- Prefer following the [Node.js release cycle](https://nodejs.org/en/about/releases) and supporting only supported Node.js versions (i.e. Current, Active LTS, and Maintenance LTS releases).
 
 ## Steps to publish a package
 
