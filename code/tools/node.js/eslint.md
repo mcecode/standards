@@ -1,7 +1,7 @@
 # ESLint
 
-[ESLint](https://eslint.org) version when this document was last updated: 7.32.0 \
-[eslint-config-mcecode](https://github.com/mcecode/eslint-config-mcecode) version when this document was last updated: 1.0.0
+[ESLint](https://eslint.org) version when this document was last updated: 8.2.0 \
+[eslint-config-mcecode](https://github.com/mcecode/eslint-config-mcecode) version when this document was last updated: 2.0.0
 
 ## Installation
 
@@ -9,7 +9,7 @@
 npm i -D eslint-config-mcecode
 ```
 
-**Note:** eslint-config-mcecode is installed instead of ESLint because it is the default configuration that will be used, and it states ESLint as a peer dependency which npm version 7 will install with it.
+**Note:** eslint-config-mcecode is installed instead of ESLint because it is the default configuration that will be used, and it states ESLint as a peer dependency which npm version 7 or later will install with it.
 
 ## Rules
 
@@ -57,7 +57,7 @@ A complete list of ESLint rules can be found [here](https://eslint.org/docs/rule
 Lint files:
 
 ```console
-npx eslint . --cache --cache-location node_modules -f codeframe
+npx eslint . --cache --cache-location node_modules
 ```
 
 ### Using npm scripts
@@ -67,7 +67,7 @@ In `package.json`:
 ```json
 {
   "scripts": {
-    "lint": "eslint . --cache --cache-location node_modules -f codeframe"
+    "lint": "eslint . --cache --cache-location node_modules"
   }
 }
 ```
