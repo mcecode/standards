@@ -1,6 +1,6 @@
 # npm
 
-[npm](https://docs.npmjs.com) version when this document was last updated: 7.24.1
+[npm](https://docs.npmjs.com) version when this document was last updated: 8.1.3
 
 **Note:** This guide is for publishing npm packages, not for creating apps.
 
@@ -45,16 +45,18 @@ When applicable to the project, use the following file names:
 
 - Prefer supporting only ECMAScript modules over CommonJS modules or both.
 - Prefer following the [Node.js release cycle](https://nodejs.org/en/about/releases) and supporting only supported Node.js versions (i.e. Current, Active LTS, and Maintenance LTS releases).
+- Do not consider dropping support for an odd Node.js version to be a breaking change.
 
 ## Steps to publish a package
 
 1. Run tests and linters.
-2. Update version in `package.json`.
-3. Update `CHANGELOG.md`.
-4. If necessary, run a build command.
-5. If necessary, test with [`npm link`](https://docs.npmjs.com/cli/v7/commands/npm-link).
-6. Run [`npm puslish`](https://docs.npmjs.com/cli/v7/commands/npm-publish).
-7. Commit release to Git.
-8. Add a release Git tag.
-9. Push release commit and tag to GitHub.
-10. Create a GitHub release based on `CHANGELOG.md` using the release tag.
+2. Update version and other relevant metadata in `package.json`.
+3. If necessary, update `README.md`.
+4. Update `CHANGELOG.md`.
+5. If necessary, run a build command.
+6. If necessary, test with [`npm link`](https://docs.npmjs.com/cli/v7/commands/npm-link).
+7. Run [`npm puslish`](https://docs.npmjs.com/cli/v7/commands/npm-publish).
+8. Commit release to Git.
+9. Add a release Git tag.
+10. Push release commit and tag to GitHub.
+11. Create a GitHub release based on `CHANGELOG.md` using the release tag.
