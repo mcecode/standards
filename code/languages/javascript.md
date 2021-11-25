@@ -19,5 +19,4 @@
   - Node.js core modules
   - Modules from external packages
   - Project-specific modules
-- Prefer to not destructure modules from external packages.
 - Do not destructure Node.js core modules.
