@@ -1,7 +1,7 @@
 # markdownlint
 
-[markdownlint](https://github.com/DavidAnson/markdownlint) version when this document was last updated: 0.23.1 \
-[markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) version when this document was last updated: 0.2.0
+[markdownlint](https://github.com/DavidAnson/markdownlint) version when this document was last updated: 0.25.1 \
+[markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) version when this document was last updated: 0.4.0
 
 ## Installation
 
@@ -96,6 +96,20 @@ A complete list of markdownlint rules can be found [here](https://github.com/Dav
     // console.log("Hello world!");
     // ```
     "style": "backtick"
+  },
+
+  // MD049 - Emphasis style should be consistent
+  "MD049": {
+    // Example:
+    // _Emphasis_
+    "style": "underscore"
+  },
+
+  // MD050 - Strong style should be consistent
+  "MD050": {
+    // Example:
+    // **Strong**
+    "style": "asterisk"
   }
 }
 ````
