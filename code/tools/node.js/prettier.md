@@ -1,6 +1,6 @@
 # Prettier
 
-[Prettier](https://prettier.io/docs/en/index.html) version when this document was last updated: 2.3.2
+[Prettier](https://prettier.io/docs/en/index.html) version when this document was last updated: 2.5.1
 
 ## Installation
 
