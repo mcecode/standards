@@ -1,6 +1,6 @@
 # ESLint
 
-[ESLint](https://eslint.org) version when this document was last updated: 8.2.0 \
+[ESLint](https://eslint.org) version when this document was last updated: 8.8.0 \
 [eslint-config-mcecode](https://github.com/mcecode/eslint-config-mcecode) version when this document was last updated: 2.0.0
 
 ## Installation
