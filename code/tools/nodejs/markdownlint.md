@@ -55,12 +55,6 @@ A complete list of markdownlint rules can be found [here](https://github.com/Dav
     "siblings_only": true
   },
 
-  // MD025 - Multiple top-level headings in the same document
-  "MD025": {
-    // Do not treat YAML front matter titles as top-level heading
-    "front_matter_title": ""
-  },
-
   // MD029 - Ordered list item prefix
   "MD029": {
     // Example:
@@ -81,12 +75,6 @@ A complete list of markdownlint rules can be found [here](https://github.com/Dav
     // ---
     // ...content
     "style": "---"
-  },
-
-  // MD041 - First line in a file should be a top-level heading
-  "MD041": {
-    // Do not treat YAML front matter titles as top-level heading
-    "front_matter_title": ""
   },
 
   // MD048 - Code fence style
