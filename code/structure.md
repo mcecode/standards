@@ -5,7 +5,7 @@ Directory structure should be tailored to the needs, architecture, and environme
 The following are the directory names, what they should contain, and therefore the cases where they should be used:
 
 - `test` contains test files.
-- `src` contains source files that need to be compiled, transpiled, bundled, or otherwise transformed for distribution.
+- `src` contains source files that are either interpreted or that need to be compiled, transpiled, bundled, or otherwise transformed for distribution.
 - `build` contains compiled, transpiled, bundled, or otherwise transformed files that are ready for distribution.
 - `lib` contains modules or components which are shipped to users, either allowing them to be used by users directly through APIs or by the project only.
 - `helpers` contains modules or components that are not shipped to users as they are for internal project use only; these are typically used to help with testing.
@@ -13,6 +13,5 @@ The following are the directory names, what they should contain, and therefore t
 - `scripts` contains interpretable scripts that are not shipped to users; these are required by the project to help with automating jobs like source compilation.
 - `docs` contains the documentation of the project.
 - `examples` contains code samples on how to use the project; this is typically used when the project is a library or a framework.
-- `media` contains audio, image, and video type files.
-- `assets` contains everything that `media` cannot contain, which are nonetheless needed by the project, such as generated content that is not from `src`.
+- `assets` contains resources such as images, videos, fonts, and generated files, among others; it may be subdivided into subdirectories like `audio` and `generated` if it contains more than one type of resource.
 - `configs` contains project-specific configurations that are more appropriately encapsulated outside of source files and environment variables.
