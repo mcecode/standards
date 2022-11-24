@@ -16,10 +16,10 @@ The [ INSERT SPECIFIC ASPECT HERE ] is licensed under the [ INSERT ONE OF THE LI
 
 OR
 
-This project is licensed under the [[ INSERT ONE OF THE LICENSES BELOW ] license]\(LICENSE).
+This project is licensed under the [[INSERT ONE OF THE LICENSES BELOW]]\(LICENSE).
 
-- MIT
-- Apache 2.0
+- MIT license
+- Apache 2.0 license
 - Version 3 of the GPL or any later version
 - Version 3 of the AGPL or any later version
 - Creative Commons Attribution-ShareAlike 4.0 International Public License
